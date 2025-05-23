@@ -29,7 +29,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding-bottom: 2rem;
 }
 
 .main-nav ul li {
