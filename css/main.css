@@ -44,6 +44,14 @@ img {
   font-size: 1.25rem;
 }
 
+.owner ul li {
+  list-style: none;
+}
+
+.address ul li {
+  list-style: none;
+}
+
 form input,
 form textarea {
   display: block;
