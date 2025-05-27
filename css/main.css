@@ -24,6 +24,18 @@ img {
   width: 100%;
 }
 
+.skiplink-top {
+  text-decoration: none;
+  padding: 0.5em;
+  color: black;
+  border: 2px solid black;
+}
+
+.skiplink-top:hover {
+  background-color: black;
+  color: white;
+}
+
 .main-nav ul {
   list-style: none;
   display: flex;
@@ -42,6 +54,10 @@ img {
   color: inherit;
   text-decoration: none;
   font-size: 1.25rem;
+}
+
+.main-nav ul li a:hover {
+  border: 2px solid black;
 }
 
 .owner ul li {
@@ -76,4 +92,20 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+.skiplink-bottom {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 0.5em;
+
+  position: fixed;
+  bottom: 0;
+  right: 150px;
+}
+
+.skiplink-bottom:hover {
+  background-color: black;
+  color: white;
 }

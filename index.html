@@ -17,9 +17,9 @@
 
     <header class="site-header" role="banner">
       <!-- skill link to main content -->
-      <a href="#maincontent" aria-label="skip to main content">Skip to Main Content</a>
+      <a href="#maincontent" aria-label="skip to main content" class="skiplink-top">Skip to Main Content</a>
 
-      <h1 role="heading">Jam Box Studios</h1>
+      <h1 role="heading" id="mainheading">Jam Box Studios</h1>
       <nav class="main-nav" role="navigation">
         <ul>
           <li><a href="#">Home</a></li>
@@ -62,22 +62,22 @@
         <form action="thanks.html" role="form">
           <div>
             <label for="fullname">Full Name</label>
-            <input type="text" placeholder="Full Name">
+            <input id="fullname" type="text" placeholder="Full Name">
           </div>
           
           <div>
             <label for="email">Email</label>
-            <input type="text" placeholder="Email">
+            <input id="email" type="text" placeholder="Email">
           </div>
 
           <div>
             <label for="subject">Subject</label>  
-            <input type="text" placeholder="Subject">
+            <input id="subject" type="text" placeholder="Subject">
           </div>
 
           <div>
             <label form="message">Your Message</label>
-            <textarea id="message"></textarea>
+            <textarea id="message" placeholder="Your Message"></textarea>
           </div>
 
           <div>
@@ -88,7 +88,9 @@
     </main>
 
     <footer class="site-footer" role="contentinfo">
-      &copy; 2021 Jam Box Studios
+      <p>&copy; 2021 Jam Box Studios</p>
+      <!-- skip link to go back top -->
+      <a href="#mainheading" aria-label="skip to main heading" class="skiplink-bottom">Go top</a>
     </footer>
   </div>
 </body>
