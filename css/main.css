@@ -26,7 +26,7 @@ img {
 
 .skiplink-top {
   text-decoration: none;
-  padding: 0.5em;
+  padding: 1em;
   color: black;
   border: 2px solid black;
 }
@@ -68,6 +68,10 @@ img {
   list-style: none;
 }
 
+.address ul :nth-child(1) {
+  font-weight: bold;
+}
+
 form input,
 form textarea {
   display: block;
@@ -85,7 +89,7 @@ form textarea {
 
 form button {
   background: none;
-  border: 2px solid black;
+  border: 1.5px solid black;
   padding: 1rem;
   text-transform: uppercase;
 }
@@ -98,11 +102,11 @@ form button {
   text-decoration: none;
   color: black;
   border: 2px solid black;
-  padding: 0.5em;
+  padding: 1em;
 
   position: fixed;
+  right: 90px;
   bottom: 0;
-  right: 150px;
 }
 
 .skiplink-bottom:hover {
